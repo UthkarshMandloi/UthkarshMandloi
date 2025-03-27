@@ -1,4 +1,4 @@
-![logo](https://github.com/Uthkarsh-Mandloi/Uthkarsh-Mandloi/blob/main/Purple%20and%20Black%20Futuristic%20AI%20Technology%20Banner%20(1).jpg)
+![logo](https://github.com/UthkarshMandloi/UthkarshMandloi/blob/main/Banner.png?raw=true)
 <h1 align="center">Hi 👋, I'm Uthkarsh Mandloi</h1>
 <h3 align="center">Aspiring Tech Innovator | BE CSE Student at IET DAVV | Exploring the Future of Cybersecurity and AI</h3>
 
