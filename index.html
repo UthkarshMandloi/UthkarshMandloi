@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uthkarsh Mandloi | Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #f0f0f0;
+            color: #000;
+            background-image: radial-gradient(#000 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background: #fff;
+            border-bottom: 4px solid #000;
+        }
+
+        /* The Neo Pop Button Style */
+        .neo-btn {
+            background-color: #ff0055;
+            color: #fff;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            border: 3px solid #000;
+            box-shadow: 5px 5px 0px #000;
+            transition: all 0.1s ease-in-out;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .neo-btn:hover {
+            transform: translate(2px, 2px);
+            box-shadow: 3px 3px 0px #000;
+        }
+
+        .neo-btn.alt {
+            background-color: #00ffd1;
+            color: #000;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            background: #ffe600;
+            border: 4px solid #000;
+            box-shadow: 10px 10px 0px #000;
+            padding: 50px;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            line-height: 1.1;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            background: #fff;
+            display: inline-block;
+            padding: 10px;
+            border: 2px solid #000;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skill-tag {
+            background: #fff;
+            border: 3px solid #000;
+            padding: 8px 16px;
+            font-weight: bold;
+            box-shadow: 3px 3px 0px #000;
+        }
+
+        .gif-container img {
+            width: 100%;
+            border: 4px solid #000;
+            box-shadow: 8px 8px 0px #000;
+            background: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>UM.</h2>
+        <!-- UPDATED WITH EXACT USERNAME -->
+        <a href="https://github.com/UthkarshMandloi" class="neo-btn">⬅ See Regular GitHub</a>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hi 👋,<br>I'm Uthkarsh</h1>
+                <p>BE CSE Student @ IET DAVV | Cybersecurity & AI</p>
+                <div style="margin-bottom: 20px;">
+                    <strong>⚡ Fun fact:</strong> When I’m not coding, I love tinkering with electronics and dreaming up new tech gadgets!
+                </div>
+                
+                <a href="mailto:uthkarshmandloi@outlook.com" class="neo-btn alt">Let's Connect</a>
+
+                <!-- UPDATED WITH YOUR ADVANCED TECH STACK -->
+                <div class="skills-container">
+                    <span class="skill-tag">Next.js</span>
+                    <span class="skill-tag">React Native</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Gemini API</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Arduino</span>
+                </div>
+            </div>
+            
+            <div class="gif-container">
+                <img src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif" alt="Coding Animation">
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
